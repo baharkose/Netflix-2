@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../assests/bg/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  color: red;
+  font-family: sans-serif;
+}
+
+#description {
+  font-weight: bold;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif';
+}
+
+.container {
+  border: 2px solid blue;
+  background-color: #00000057;
+  width: 94%;
+  height: 96vh;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#survey-form {
+  background-color: rgba(0, 0, 0, 0.718);
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+
+  /* text-align: start; */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+
+label {
+  border: 2px solid green;
+  text-align: left;
+  padding: 0px 0px 5px 0px;
+  margin: 10px 0;
+  /* margin-bottom: 0; */
+}
+
+.check {
+  /* display: inline-block; */
+  text-align: left;
+  margin-top: 10px;
+
+}
+
+#checkbox {
+  margin-top: 0;
+}
+
+.radios {
+  display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+input{
+  padding: 10px;
+}
+
+select{
+  width: 95%;
+  padding: 5px;
+
+}
+textarea{
+  padding:10px;
+  resize:none;
+}
+
+#submit{
+  margin: 10px;
+
+padding: 15px 46px;
+background-color:red;
+color: white;
+border-radius: 30px;
+* margin: auto; */
+border: none;
+}
+
+#submit:hover{
+  background-color:rgb(58, 8, 8);
+  cursor: pointer;
+}
